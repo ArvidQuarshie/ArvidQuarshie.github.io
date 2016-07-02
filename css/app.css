@@ -12,25 +12,26 @@
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    margin: 0 auto;
     background-attachment: fixed;
+    ;
+    margin-right: inherit;
 }
 .skills {
-    height: 50%;
+    height: 70%;
     width: 100%;
     text-align: center;
     background-color: black;
-    color:white;
+    color: white;
 }
 .contacts {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    max-width: 1350px;
     background-color: black;
     text-align: center;
-    color:white;
+    color: white;
 }
 .portfolio {
-    height: 50%;
+    height: 60%;
     background-color: white;
     width: 100%;
     text-align: center;
@@ -38,7 +39,6 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 5%;
-
 }
 .overlay {
     height: 100%;
@@ -152,7 +152,10 @@ h6 {
 h1 {
     text-align: center;
 }
-.row {}
+.row {
+    max-width: 1350px;
+    text-align: center;
+}
 .more:link,
 .more:visited {
     transition-duration: 0.2s;
@@ -597,7 +600,7 @@ body {
   font-size: 14px;
   font-weight: 100;
 */
-/*    color: #fff;*/
+    /*    color: #fff;*/
     /*    text-align: center;*/
 }
 
@@ -610,9 +613,18 @@ h2 {
 */
 
 .form {
-    height:50%;
-    width:100%;
+    height: 50%;
+    width: 100%;
     background-color: black;
-    color:white;
+    color: white;
+    text-align: center;
+}
 
+.profile li {
+   display: inline-block;
+
+}
+
+#contact {
+    width:50%;
 }
