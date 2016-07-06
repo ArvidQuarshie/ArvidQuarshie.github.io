@@ -19,12 +19,23 @@
     height: 70%;
     width: 100%;
     text-align: center;
+    background-image: url(../img/IMG_0701.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
 }
 .contacts {
     height: 100%;
     width: 100%;
     background-color: white;
     text-align: center;
+    background-image: url(../img/cup.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .portfolio {
     height: 50%;
@@ -678,7 +689,4 @@ body {
     /*  color: #2f2f2f;*/
     /*  font-family: 'Open Sans';*/
 }
-
-.profile {
-    
-}
+.profile {}
