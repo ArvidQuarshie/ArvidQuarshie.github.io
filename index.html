@@ -13,8 +13,10 @@
     <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <!--
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+-->
 
 
 </head>
@@ -23,7 +25,9 @@
     <div class="container">
 
         <div class="row" id="landing">
+
             <div class="overlay">
+
 
                 <div class="row hey">
                     <div class="small-2 large-4 columns">
@@ -163,22 +167,25 @@
                     <h2>Email me</h2>
 
 
-                    <!--
-                    <form id="contact" action="https://formspree.io/arvidquarshie@gmail.com" method="post">
-                        <div class="left">
-                            <input type="text" placeholder="Name" required="required" name="name" />
-                            <input type="email" placeholder="Email" required="required" name="email" />
-                            <input type="text" placeholder="Subject" required="required" name="subject" />
+
+                    <form action="">
+
+                        <input type="text" placeholder="Name" name="name" required>
+
+                        <input type="email" placeholder="Email" name="email" required>
+
+                        <textarea placeholder="Message" name="message" required></textarea>
+
+                        <div class="captcha">
+                            <input type="text" placeholder="Answer" name="captcha" required>
+                            <input type="text" value="2 + 3 =" name="question" required readonly>
                         </div>
-                        <div class="right">
-                            <textarea placeholder="Message" required="required" name="textarea"></textarea>
-                        </div>
-                        <div class="send-button cl">
-                            <button type="submit">
-                                <h5>Send</h5></button>
-                        </div>
+
+                        <input type="submit" value="Send">
+
                     </form>
--->
+
+
                 </ul>
             </div>
             <div class="small-6 large-4 columns">
@@ -186,29 +193,10 @@
             </div>
         </div>
 
-        <div class="form">
-            <div class="row">
-                <form id="contact" action="https://formspree.io/arvidquarshie@gmail.com" method="post">
-                    <div class="left">
-                        <input type="text" placeholder="Name" required="required" name="name" />
-                        <input type="email" placeholder="Email" required="required" name="email" />
-                        <input type="text" placeholder="Subject" required="required" name="subject" />
-                    </div>
-                    <div class="right">
-                        <textarea placeholder="Message" required="required" name="textarea"></textarea>
-                    </div>
-                    <div class="send-button cl">
-                        <button type="submit">
-                            <h5>Send</h5></button>
-                    </div>
-                </form>
 
-            </div>
-
-
-        </div>
 
     </div>
+
 
 
 
