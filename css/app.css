@@ -1,19 +1,22 @@
 .container {
     /*  background-image: url(../img/white3.jpg);*/
     height: 100%;
-    width: 100%;
+    max-width: 1450px;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 #landing {
     background-image: url(../img/IMG_3959.jpg);
     height: 100%;
-    width: 100%;
+    max-width: 1350px;
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
     margin: 0 auto;
     background-attachment: fixed;
+    margin-right: 0;
+    
+    
 }
 .skills {
     height: 70%;
@@ -52,7 +55,9 @@
     background-image: url(../img/portfolio2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: hard-light;
+    margin-top: 5%;
+   
+    
 }
 .overlay {
     height: 100%;
