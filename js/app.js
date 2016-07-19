@@ -4,3 +4,9 @@ $(document).ready(
         $(this).addClass("menu__item--current");
     })
 );
+
+$(".hover").mouseleave(
+    function () {
+        $(this).removeClass("hover");
+    }
+);
