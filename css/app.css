@@ -32,8 +32,9 @@
 .contacts {
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: dimgrey;
     text-align: center;
+    margin-top: 5%;
     /*
     background-image: url(../img/cup.jpg);
     background-attachment: fixed;
@@ -701,8 +702,8 @@ body {
 .footer {
     height: 15%;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 /*portfolio on hover*/
