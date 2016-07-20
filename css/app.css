@@ -566,7 +566,7 @@ body {
 }
 .profile {}
 .footer {
-    height: 15%;
+    height: 7%;
     width: 100%;
     background-color: white;
     color: black;
@@ -733,4 +733,8 @@ figure.snip1524.hover figcaption {
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 5%;
+}
+
+.tweet {
+    margin-right: 0;
 }
