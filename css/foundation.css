@@ -1895,6 +1895,7 @@ select {
     float: left; }
     .button-group .button:not(:last-child) {
       border-right: 1px solid #fefefe; }
+
   .button-group.tiny .button {
     font-size: 0.6rem; }
   .button-group.small .button {
