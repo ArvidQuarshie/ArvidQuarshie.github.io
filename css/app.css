@@ -604,7 +604,7 @@ body {
 }
 .profile {}
 .footer {
-    height: 30%;
+    height: 20%;
     width: 100%;
     background-color: black;
     color: black;
@@ -884,6 +884,7 @@ h1 {
 .gitblog {
     text-align: center;
     margin-top: 30px;
+    color:white;
 }
 .linked {
     text-align: center;
