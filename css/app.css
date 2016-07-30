@@ -7,7 +7,7 @@
     margin-left: 0;
 }
 #landing {
-/*    background-image: url(../img/arvid.jpg);*/
+ 
     height: 100%;
     max-width: 1450px;
     background-repeat: no-repeat;
@@ -212,7 +212,7 @@ h1 {
     text-align: center;
 }
 .row {
-/*    max-width: 1350px;*/
+    max-width: 1350px;
 }
 .more:link,
 .more:visited {
@@ -907,4 +907,11 @@ a {
 
 .lynk {
         margin-top: 20px;
+}
+
+.land {
+    height:100%;
+    max-width:1450px;
+    background-color: black;
+    
 }
